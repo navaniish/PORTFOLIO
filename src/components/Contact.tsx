@@ -69,7 +69,7 @@ export default function Contact() {
               <h3 className="text-2xl font-semibold mb-6">Connect on Social</h3>
               <div className="space-y-3">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/daggupati-navaneeswar-93831b308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-4 p-4 bg-gray-800/50 border border-gray-700 rounded-lg hover:border-cyan-500/50 transition-all group"

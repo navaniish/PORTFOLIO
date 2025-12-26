@@ -34,7 +34,7 @@ function App() {
               <a href="mailto:nexovgen.contact@zohomail.in" className="text-gray-400 hover:text-cyan-400 transition-colors">
                 <Mail className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors">
+              <a href="https://www.linkedin.com/in/daggupati-navaneeswar-93831b308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors">
