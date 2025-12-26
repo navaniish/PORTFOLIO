@@ -19,19 +19,21 @@ export default function Hero() {
         <div className="space-y-8 animate-fade-in">
           <div className="inline-block">
             <div className="px-4 py-2 bg-cyan-500/10 border border-cyan-500/20 rounded-full text-cyan-400 text-sm font-medium mb-4">
-              Founder & CEO
+              AI-Powered Innovation
             </div>
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold">
-            <span className="block mb-2">Daggupati Navaneeswar</span>
             <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 bg-clip-text text-transparent">
-              Building NEXOVGEN
+              NEXOVGEN
+            </span>
+            <span className="block mt-2 text-3xl sm:text-4xl text-gray-300">
+              Building Intelligent Solutions for Tomorrow
             </span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-400 max-w-3xl mx-auto">
-            Building intelligent solutions for the next generation through AI, Machine Learning, and innovative technology
+            Next-generation AI, automation, and SaaS solutions that transform businesses and drive sustainable growth
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
@@ -40,7 +42,7 @@ export default function Hero() {
               className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 flex items-center space-x-2"
             >
               <Rocket className="w-5 h-5" />
-              <span>Explore NEXOVGEN</span>
+              <span>Learn About NEXOVGEN</span>
             </button>
 
             <button
@@ -48,7 +50,7 @@ export default function Hero() {
               className="group px-8 py-4 bg-gray-800 border border-gray-700 rounded-lg font-semibold hover:border-cyan-500 transition-all duration-300 flex items-center space-x-2"
             >
               <Mail className="w-5 h-5" />
-              <span>Contact Founder</span>
+              <span>Get In Touch</span>
             </button>
           </div>
         </div>

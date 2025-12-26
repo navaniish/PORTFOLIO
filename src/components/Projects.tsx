@@ -46,10 +46,10 @@ export default function Projects() {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Code2 className="w-8 h-8 text-cyan-400" />
-            <h2 className="text-3xl sm:text-4xl font-bold">Projects & Innovations</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold">NEXOVGEN Solutions</h2>
           </div>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Transforming ideas into impactful solutions through cutting-edge technology and strategic innovation
+            Industry-leading projects demonstrating NEXOVGEN's expertise in AI, automation, and next-generation technology
           </p>
         </div>
 
@@ -95,7 +95,7 @@ export default function Projects() {
                   </div>
 
                   <div>
-                    <p className="text-sm text-gray-500 font-semibold mb-1">Founder's Role</p>
+                    <p className="text-sm text-gray-500 font-semibold mb-1">NEXOVGEN's Role</p>
                     <p className="text-gray-300 text-sm">{project.role}</p>
                   </div>
 

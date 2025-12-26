@@ -5,41 +5,7 @@ export default function About() {
     <section id="about" className="py-20 bg-gray-900/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          <div className="space-y-6">
-            <div className="flex items-center space-x-3">
-              <User className="w-8 h-8 text-cyan-400" />
-              <h2 className="text-3xl sm:text-4xl font-bold">About Founder</h2>
-            </div>
-
-            <div className="space-y-4 text-gray-300 leading-relaxed">
-              <p>
-                Daggupati Navaneeswar is a visionary entrepreneur and technologist with a deep passion for
-                Artificial Intelligence and Machine Learning. As the Founder & CEO of NEXOVGEN, he leads the
-                charge in creating intelligent, scalable solutions that address real-world challenges.
-              </p>
-
-              <p>
-                With a strong background in AI/ML and full-stack development, Navaneeswar combines technical
-                expertise with strategic business acumen. His leadership philosophy centers on innovation,
-                continuous learning, and building technology that makes a meaningful impact.
-              </p>
-
-              <p>
-                Beyond technical excellence, he is committed to fostering a culture of collaboration and
-                pushing the boundaries of what's possible with next-generation technology.
-              </p>
-
-              <div className="pt-4">
-                <div className="inline-block px-4 py-2 bg-cyan-500/10 border border-cyan-500/20 rounded-lg">
-                  <p className="text-cyan-400 font-semibold">
-                    "Innovation is not just about technology—it's about solving problems that matter."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="space-y-6">
+          <div className="space-y-6 md:order-1">
             <div className="flex items-center space-x-3">
               <Building2 className="w-8 h-8 text-blue-400" />
               <h2 className="text-3xl sm:text-4xl font-bold">About NEXOVGEN</h2>
@@ -85,6 +51,41 @@ export default function About() {
                   emerging markets, and building strategic partnerships that accelerate technological
                   advancement and create lasting value.
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-6 md:order-2">
+            <div className="flex items-center space-x-3">
+              <User className="w-8 h-8 text-cyan-400" />
+              <h2 className="text-3xl sm:text-4xl font-bold">Leadership</h2>
+            </div>
+
+            <div className="space-y-4 text-gray-300 leading-relaxed">
+              <p>
+                NEXOVGEN is led by Daggupati Navaneeswar, a visionary entrepreneur and technologist with a deep passion for
+                Artificial Intelligence and Machine Learning. As Founder & CEO, Navaneeswar drives the company's mission to
+                create intelligent, scalable solutions that address real-world challenges.
+              </p>
+
+              <p>
+                With a strong background in AI/ML and full-stack development, Navaneeswar combines technical
+                expertise with strategic business acumen. His leadership philosophy centers on innovation,
+                continuous learning, and building technology that makes a meaningful impact.
+              </p>
+
+              <p>
+                Committed to fostering a culture of collaboration and excellence, he leads NEXOVGEN with a focus on
+                pushing the boundaries of what's possible with next-generation technology and creating lasting value
+                for clients, partners, and the broader tech community.
+              </p>
+
+              <div className="pt-4">
+                <div className="inline-block px-4 py-2 bg-cyan-500/10 border border-cyan-500/20 rounded-lg">
+                  <p className="text-cyan-400 font-semibold">
+                    "Innovation is not just about technology—it's about solving problems that matter."
+                  </p>
+                </div>
               </div>
             </div>
           </div>
